@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script>
+        // Redirect to the custom URI scheme with query parameters
+        const hash = window.location.hash;
+        window.location = "myapp://auth" + hash;
+    </script>
+</head>
+<body>
+    <p>Redirecting, please wait...</p>
+</body>
+</html>
